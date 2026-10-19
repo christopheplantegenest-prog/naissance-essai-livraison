@@ -4,10 +4,11 @@ Fichier écrit par le robot. Ne pas le modifier.
 
 ## Dernier colis
 
-✅ 2026-10-19 16:11 UTC — **v0.1.0** — Essai L4 C01 : application inerte (R14a, R13) (c01-v0.1.0-nominal.zip)
+✅ 2026-10-19 19:25 UTC — **v0.2.0** — Essai L4 C08 : tests qui modifient un fichier suivi (R7) (c08-v0.2.0-r7.zip)
 
-Version en ligne : **0.1.0**
+Version en ligne : **0.2.0**
 
 ## Historique
 
+- ✅ 2026-10-19 19:25 UTC — **v0.2.0** — Essai L4 C08 : tests qui modifient un fichier suivi (R7) (c08-v0.2.0-r7.zip)
 - ✅ 2026-10-19 16:11 UTC — **v0.1.0** — Essai L4 C01 : application inerte (R14a, R13) (c01-v0.1.0-nominal.zip)

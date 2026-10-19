@@ -26,3 +26,9 @@ test('R13 : aucun secret visible dans l environnement', () => {
   }
   console.log('R13 variables :', noms.filter((n) => /TOKEN|SECRET|CLE|KEY/i.test(n)).join(',') || 'aucune');
 });
+
+import { appendFileSync } from 'node:fs';
+// R7 : un test modifie un fichier suivi ; la livraison doit livrer l'arbre attendu, pas ce fichier modifié
+test('R7 : modification d un fichier suivi pendant les tests', () => {
+  appendFileSync('app/demarrer.js', '\n// modifié par les tests (R7) : ne doit pas être livré\n');
+});
